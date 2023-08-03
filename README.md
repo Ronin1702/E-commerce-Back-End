@@ -25,10 +25,10 @@ SO THAT my company can compete with other e-commerce companies
 * [![Node.js](https://img.shields.io/badge/Node.js®-v20.4.0-blue?logo=node.js)](https://nodejs.org/en)
 
 * [![npm](https://img.shields.io/badge/npm-v9.8.0-blue?logo=npm)](https://docs.npmjs.com/cli/v9/)
-  * [![DotEnv Package](https://img.shields.io/badge/DotEnv-16.3.1-green?logo=dotenv)](https://www.npmjs.com/package/dotenv)
-  * [![Express Package](https://img.shields.io/badge/Express-4.18.2-green?logo=express)](https://www.npmjs.com/package/express)
-  * [![MySQL2 Package](https://img.shields.io/badge/MySQL2-3.5.2-green?logo=mysql)](https://www.npmjs.com/package/https://www.npmjs.com/package/mysql2)
-  * [![Sequelize Package](https://img.shields.io/badge/sequelize-6.32.1-green?logo=sequelize)](https://www.npmjs.com/package/https://www.npmjs.com/package/sequelize)
+  * [![DotEnv Package](https://img.shields.io/badge/DotEnv-8.2.0-green?logo=dotenv)](https://www.npmjs.com/package/dotenv)
+  * [![Express Package](https://img.shields.io/badge/Express-4.17.1-green?logo=express)](https://www.npmjs.com/package/express)
+  * [![MySQL2 Package](https://img.shields.io/badge/MySQL2-2.1.0-green?logo=mysql)](https://www.npmjs.com/package/https://www.npmjs.com/package/mysql2)
+  * [![Sequelize Package](https://img.shields.io/badge/sequelize-5.21.7-green?logo=sequelize)](https://www.npmjs.com/package/https://www.npmjs.com/package/sequelize)
 
 [*back to top*](#table-of-contents)
 
@@ -43,7 +43,7 @@ SO THAT my company can compete with other e-commerce companies
 >```
 >
 >```bash
->npm i dotenv@16.3.1 express@4.18.2 mysql2@3.5.2 sequelize@6.32.1
+>npm i dotenv@8.2.0 express@4.17.1 mysql2@2.1.0 sequelize@5.21.7
 >```
 >
 > **Important**: Please @ the **EXACT** versions as shown above to ensure the functionality of this application.
@@ -51,10 +51,25 @@ SO THAT my company can compete with other e-commerce companies
 **Before you start, make sure to created a *`.env`* file in the root directory as the example shown below:**
 
 ```bash
-DB_HOST=Replace this with your own hostname, e.g. "localhost"
 DB_USER=Replace this with your own username, e.g. "root"
-DB_PASS=Replace this with your own password to your "host"
+DB_PASSWORD=Replace this with your own password
 DB_NAME=ecommerce_db
+```
+
+* Source the `schema.sql` in `MySQL`:
+
+```bash
+mysql -u root -p
+```
+
+```mysql
+source ./db/schema.sql
+```
+
+* Seed the application by entering the commands below:
+
+```bash
+npm run seed
 ```
 
 [*back to top*](#table-of-contents)
