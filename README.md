@@ -121,4 +121,4 @@ THEN I am able to successfully create, update, and delete data in my database
 [*back to top*](#table-of-contents)
 
 ---
-[![Copyright](https://img.shields.io/static/v1.svg?label=E-commerce%20Back%20End%20©️%20&message=%202023%20Kai%20Chen&labelColor=informational&color=033450)](https:kaichen.biz)
+[![Copyright](https://img.shields.io/static/v1.svg?label=E-commerce%20Back%20End%20©️%20&message=%202023%20Kai%20Chen&labelColor=informational&color=033450)](https://kaichen.biz)
