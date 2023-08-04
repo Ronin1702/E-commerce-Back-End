@@ -1,4 +1,4 @@
-# E-commerce-Back-End [![GPLv3](https://img.shields.io/static/v1.svg?label=📃%20License&message=MIT&color=important)](./LICENSE)
+# E-commerce-Back-End [![MIT](https://img.shields.io/static/v1.svg?label=📃%20License&message=MIT&color=important)](./LICENSE)
 
 This is repository to the Back end for an e-commerce site
 
@@ -116,7 +116,7 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ## License
 
-* This application is licensed by [![GPLv3](https://img.shields.io/static/v1.svg?label=📃%20License&message=MIT&color=important)](./LICENSE).
+* This application is licensed by [![MIT](https://img.shields.io/static/v1.svg?label=📃%20License&message=MIT&color=important)](./LICENSE).
 
 [*back to top*](#table-of-contents)
 
