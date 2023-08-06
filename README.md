@@ -102,7 +102,8 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ## Walkthrough Video
 
-[![Walkthrough Video Coming Soon](./img/Employee%20Tracker.gif)](https://drive.google.com/file/d/1_zVCtHVpiJ8ZTMMw7eN3g57NYMmSHCzc/view)
+* Click the Insomnia Screenshot below to view the walkthrough video:
+[![Walkthrough Video](./img/Insomnia-Screenshot.png)](https://drive.google.com/file/d/1gFtjfu6UMzT_BtfxiXNfbCLtI02iaoZf/view)
 
 [*back to top*](#table-of-contents)
 
@@ -111,6 +112,7 @@ THEN I am able to successfully create, update, and delete data in my database
 [![Tweet about this](https://img.shields.io/static/v1.svg?label=Tweet%20about%20this&message=🎵&color=blue&logo=twitter&style=social)](https://rb.gy/ijddk)
 
 * GitHub Repo: [E-commerce-Back-End](https://github.com/Ronin1702/E-commerce-Back-End)
+* Walkthrough Video: [Click Here](https://drive.google.com/file/d/1gFtjfu6UMzT_BtfxiXNfbCLtI02iaoZf/view)
 
 [*back to top*](#table-of-contents)
 
